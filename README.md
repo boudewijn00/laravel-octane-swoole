@@ -3,3 +3,9 @@ based on https://github.com/exaco/laravel-octane-dockerfile but then simplified.
 _docker-compose exec app php artisan octane:start --server=swoole --host=0.0.0.0 --port=8000_
 
 then you can access the laravel application on http://localhost:8000
+
+if you want to compare the performance of the application with and without octane, you can run the application without octane by running:
+
+_docker-compose exec app php artisan serve --host=0.0.0.0 --port=8000_
+
+then you can access the laravel application on http://localhost:8000
