@@ -1,4 +1,4 @@
-based on https://github.com/laravel/octane but then simplified. supervisor not configured yet, so for now run manually:
+based on https://github.com/exaco/laravel-octane-dockerfile but then simplified. supervisor not configured yet, so for now run manually:
 
 _docker-compose exec app php artisan octane:start --server=swoole --host=0.0.0.0 --port=8000_
 
