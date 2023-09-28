@@ -7,3 +7,5 @@ if you want to compare the performance of the application with and without octan
 _docker-compose exec app php artisan serve --host=0.0.0.0 --port=8000_
 
 in both cases you can access the laravel application on http://localhost:8000
+
+im slowly working my way through https://www.packtpub.com/product/high-performance-with-laravel-octane/9781801819404 and adding the examples to this repository
